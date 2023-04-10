@@ -1,0 +1,512 @@
+১. জাভাস্ক্রিপ্ট কি জিনিস এইটা কি জানো?
+=> জাভাস্ক্রিপ্ট হল একটি ক্লায়েন্ট সাইড স্ক্রিপ্টিং বা ব্রাউজার স্ক্রিপ্টিং ল্যাংগুয়েজ।
+জাভাস্ক্রিপ্ট (সংক্ষেপে JS বলা হয়) একটি প্রোটোটাইপ-ভিত্তিক স্ক্রিপ্টিং ল্যাংগুয়েজ
+যাতে পরিবর্তনশীল, দুর্বল টাইপ এবং প্রথম শ্রেণীর ফাংশন আছে। এটি একটি 
+অবজেক্ট ওরিয়েন্টেড, কার্যকরী প্রোগ্রামিং শৈলী সমর্থনকারী ভাষা।
+
+২. জাভাস্ক্রিপ্ট কিভাবে কাজ করে সেটা কি জানো?
+=> জাভাস্ক্রিপ্ট একটি স্ক্রিপ্টিং ল্যাঙ্গুয়েজ। ওয়েভসাইটের ক্লায়েন্ট পর্যায়ে অর্থাৎ ব্রাউজারে বিহেভিয়ার কন্ট্রোলের লক্ষ্য নিয়ে একে ডিজাইন করা হয়েছে। তবে বর্তমানে এটি ব্রাউজার ছাড়াও যে কোন অপারেটিং সিস্টেমে রান করে এবং অন্যান্য হাই লেভেল প্রোগ্রামিং ল্যাঙ্গুয়েজের মত সমস্ত বৈশিষ্ট্য এতে বিদ্যমান।
+
+৩. ভেরিয়েবল কি জিনিস?
+=> জাভাস্ক্রিপ্ট রান করার সময় যেন এমন ঝামেলায় না পড়তে হয় সে জন‍্য ভ্যারিয়েবল নামক একটি জিনিস রয়েছে। ভ্যারিয়েবল ব‍্যবহার ফলে প্রতিটি তথ‍্য আলাদা এবং সুন্দরভাবে সাজিয়ে রাখা যায়। যখন প্রয়োজন মত সেই তথ‍্য ব‍্যবহার করা যায় সহজে।
+
+৪. ভেরিয়েবল কিভাবে ডিক্লেয়ার করে
+=> JavaScript এ variable declare করার জন্য var কীওয়ার্ড এর মতোই let নামে আরেকটি keyword আছে , যার কাজ হচ্ছে variable টিকে function scope বা global scope এর পরিবর্তে block scope { }হিসেবে ব্যবহার করা যায়। অর্থাৎ আপনি চাইলে একই কোড পেজে অথবা একই ফাঙ্কশনের মধ্যে block দিয়ে একাধিক variable declare করতে পারেন।
+
+৫. ভেরিয়েবল এর মান কিভাবে চেইঞ্জ করে বা আপডেট করে। 
+if variable is-- var number = 10;
+change the variable value-- number = 20;
+real code-- 
+var names = 'sakib';
+names = 'rakib';
+console.log(names);
+
+৬. কি কি ধরণের ভেরিয়েবল হয়। সেগুলা কি কি (হিন্টস: Numeric, String, Boolean)
+
+
+
+
+৭. জাভাস্ক্রিপ এ primitive and non primitive data types কি কি ? উদাহরণ হিসেবে বলো।
+=> Data type
+Data type যে কোন প্রোগ্রামিং ভাষার ক্ষেত্রে একটি প্রধান বিবেচ্ছ বিষয়। কোন ভেরিয়েবল নিয়ে কাজ করার ক্ষেত্রে এটা জানা প্রয়োজন, যে সেটি কোন প্রকার তথ্য বা data, উদাহরণ স্বরূপ নিচের কোড গুলো দেখুন।
+উদাহরণ
+var x= 12 + Apple
+
+এখানে data type নির্ধারণ করে দেয়া হয় নি বলে, "Apple" এই লেখাটি কেও 12 এর সাথে যোগ করে প্রদর্শন করবে অর্থাৎ " 12Apple " লেখা দেখাবে। কারন কোন সংখ্যা বা numbar এর সাথে কোন text string যোগ করতে হলে, জাভাস্ক্রিপ্ট সংখ্যাকেও, string হিসেবে ধরে নেয়।
+
+প্রকারভেদ
+জাভাস্ক্রিপ্টে 2 প্রকার তথ্য বা data রয়েছে, এগুলো হল নিম্নরূপ।
+
+Primitive ডাটা টাইপ এবং
+Non-primitive বা reference ডাটা টাইপ
+Primitive ডাটা টাইপ
+জাভাস্ক্রিপ্টে 5 প্রকার Primitive ডাটা টাইপ রয়েছে। এগুলো হল নিম্নরূপ -
+
+String -
+Number - গাণিতিক বা numeric মান নির্ধারণ করে,
+Undefined - Undefined মান নির্ধারণ করে,
+Boolean - কেবল মাত্র দুইটি মান বা value ব্যবহার করে অর্থাৎ "true" এবং "false" ব্যবহার করে মান নির্ধারণ করে,
+Null - শূন্য বা null মান নির্ধারণ করে,
+Non-primitive বা reference ডাটা টাইপ
+জাভাস্ক্রিপ্টে 3 প্রকার Non-primitive বা reference ডাটা টাইপ রয়েছে। এগুলো হল নিম্নরূপ -
+
+Object -
+Array - একই রকম মান বা value গুলোর গুচ্ছ বা group তৈরি করে,
+RegExp - regular expression গুলো তৈরি করে,
+
+
+
+৮. ভেরিয়েবল এর নাম কিভাবে কিভাবে ডিক্লেয়ার করতে হয়। কোন কোন জিনিস নাম এ লেখা যাবে না। অর্থাৎ Variable এর naming convention সম্পর্কে বলো।
+=> ভেরিয়েবলের মান বা Value নির্দেশ করা হয় সমান চিহ্নের" = " মাধ্যমে। যেখানে বা পাশে থাকে ভেরিয়েবল এবং ডান পাশে থাকে ভেরিয়েবল এর মান। যেমন -
+
+my_var = "Hello World!" এখানে "my_var" হল ভেরিয়েবল এবং এর মান বা Value হল "Hello World!". ভেরিয়েবল এবং এর মান বসানোর ক্রম ঠিক রাখতে হবে অর্থাৎ প্রথমে ভেরিয়েবলের নাম এবং পরে এর মান বসাতে হবে।
+
+ভেরিয়েবল এর বৈশিষ্ট
+সাধারনত কোন ভেরিয়েবল এর যে সকল বৈশিষ্ট থাকে সেগুলো নিছে দেখুন।
+
+ভেরিয়েবলের নাম কেজ সেন্সিটিভ তাই এ ব্যাপারে সতর্ক থাকতে হবে। যেমন A এবং a এক নয়।
+ভেরিয়েবলের নাম অবশ্যই কোন বর্ণ উদাহরণস্বরূপ " A থেকে Z " পর্যন্ত বা " a থেকে z " পর্যন্ত বা আণ্ডারস্কোর " _ " অথবা ডলার " $ " ছিনহ দিয়ে শুরু হবে,
+ভেরিয়েবলের নামে যে কোন বর্ণমালা বা সংখ্যা বা আণ্ডারস্কোর থাকতে পারে,
+ভেরিয়েবলের নামের মাঝে কোন স্পেস থাকতে পারবে না,
+ভেরিয়েবলের নামের মাঝে কোন চিহ্ন যেমন - কমা, ফুলস্টপ ব্যবহার করা যাবে না,
+ভেরিয়েবল এর শুরুতে কোন সংখ্যা ব্যবহার করা যাবে না,
+ভেরিয়েবলের নাম হিসেবে জাভাস্ক্রিপ্টের সংরক্ষিত শব্দ বা Reserved Word গুলো ব্যবহার করা যাবে না।
+real code--
+// good variable
+var price = 100 ;
+
+// 1. variable name can't be any keyword
+var false = 50 ;
+var delete = "yes delete" ;
+
+// 2. variable name has to be one word.-  No spase.
+var my name = "sakib hossain"; 
+
+// 3. variable name can't have qutation.
+var "my name" = "sakib hossain" ;
+
+// 4. variable name can't be starts with a number But can ends with a number.
+var 99home = "In this city" ;
+var home99 = "iN this city" ;
+
+// 5. How to use long name.
+// can't use dase(-)
+var my-name = "sakib";
+// can use underdash (snake case)
+var my_name = 'sakib';
+// It's right but after few times you can't remamber this what the mening of the line.
+var myname = 'sakib';
+// camel case
+var myName = 'sakib';
+// pascal case
+var MyName = 'sakib';
+
+// variable name is case senstive
+var price = 100 ;
+var Price = 100 ;
+
+৯. দুইটা ভেরিয়েবল এর মধ্যে +, -, *, /, % কিভাবে করে?
+real code-- 
+var number01 = 10;
+var number02 = 20;
+
+"+"
+var addition = number01 + number02;
+result: 30;
+
+"-"
+var subtraction = number02 - number01;
+result: 10;
+
+"*"
+var multification = number01 * number02;
+result: 200;
+
+"/"
+var divition = number02 / number01;
+result: 2;
+
+"%"
+var modulus = number02 % number01;
+result:  0; (bagshes bahir kore ata diye)
+
+
+১০. শর্টহ্যান্ড গুলো জানতে হবে। বিশেষ করে +=, -=, *=, /= জানতে হবে। 
++= mean increse will be 1;
+-= mean deccrise will be 1;
+*= mean multification will be 1 time;
+/= mean divition will be 1 time;
+
+
+১১.. ++ এবং -- এর কাজ কি ? এইটা কি জানো। 
+++ mean increse will be 1;
+-- mean deccrise will be 1;
+
+
+১২ parseInt, parseFloat, toFixed এইগুলা কি করে?
+=>The parseInt method parses a value as a string and returns the first integer. 
+parseInt means it wiil take full number like 10.02 from 10 will be the result. like-- parseInt(10.55) result will show 10
+=> parseFloat -- The parseFloat() method parses a value as a string and returns the first number. like-- parseFloat(10.55) result will show 10.55.
+=> toFixed -- The toFixed() method converts a number to a string.
+The toFixed() method rounds the string to a specified number of decimals.
+like-- let num = 5.56789;
+let n = num.toFixed(3);
+result will show -- 5.567
+
+
+১৩. Array কি জিনিস। এইটা কিভাবে কাজ করে? কিভাবে Array ডিক্লেয়ার করতে হয়
+=> JavaScript এ Array ব্যবহার করে কিভাবে? তো Array তে তথ্য রাখবার জন্য দেখলাম যে [ ] এর মধ্যে রাখা হচ্ছে এবং কমা দিয়ে আলাদা আলাদা করা হচ্ছে । এখন যদি String Type Data হয় তো সেগুলোকে ডাবল কিংবা সিংগেল কোট ” বা ' এর মধ্যে নিতে হয় উদাহরন হিসেবে উপরের name variable টিতে দেখুন Invert coma র মধ্যে নেয়া হয়েছে ।
+code like--
+var age = [20, 25, 68, 35];
+var name= ['sakib', 'rakib', 'hossain'];
+
+
+১৪. array এর মধ্যে কয়টা উপাদান (element) আছে সেটা কিভাবে বের করে
+=> live code--
+var numbers = [20, 58, 65, 35, 45];
+
+for(var i = 0; i < numbers.length; i++){
+    var number = numbers[i];
+    console.log(i, number);
+}
+result-- 
+0 20
+1 58
+2 65
+3 35
+4 45
+
+
+১৫. array এর উপাদান গুলা এর পজিশন ( index) কিভাবে কাজ করে--
+count 0 to next 
+
+কত দিয়ে শুরু হয় --- frome 0
+
+এবং মান কিভাবে চেইঞ্জ হয়-- live code
+var numbers = [20, 58, 65, 35, 45];
+now we will change the 2 number of index in array
+number[2] = 50;
+now array is like-- [20, 58, 50, 35, 45];
+
+
+১৬. কোন একটা উপাদানের index এর মান -১ বলতে কি বুঝায়
+=> that mean your finding (indexOf) element is no in the array that why console result show (-1).
+
+
+১৭. কিভাবে index দিয়ে কোন একটা array এর মধ্যে উপাদান এর মান খুঁজে বের করতে পারো-- live code--
+var numbers = [20, 58, 65, 35, 45];
+console.log(numbers[2])
+result will be -- 65
+
+
+১৮. কিভাবে কোন একটা index পজিশন এ array এর উপাদান এর মান চেইঞ্জ করতে পারবে--live code--
+var numbers = [20, 58, 65, 35, 45];
+numbers[3] = 20;
+console.log(numbers);
+result will be-- [20, 58, 65, 20, 45]
+
+
+১৯. একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো?
+=> live code--
+var numbers = [20, 58, 65, 35, 45];
+number =  numbers.indexOf(65);
+console.log(number);
+result will be -- 2
+
+
+২০. ধরো, কোন একটা ইনডেক্স দিয়ে উপাদান খুঁজতে গেছো। কিন্তু সেটার মান না দিয়ে তোমাকে undefined দেখাচ্ছে। সেটা দেখে তুমি কি বুঝবে? (একটু গুগলে সার্চ দাও। আমরা কোর্স এ এইটা আলোচনা করিনি। তারপরেও চেষ্টা করে দেখো)
+=> if this value are not in the array thn result will show undefined.
+
+
+২১. কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে।
+=>var numbers = [20, 58, 65, 35, 45];
+numbers.push(20);
+console.log(numbers);
+relsule-- [ 20, 58, 65, 35, 45, 20 ]
+আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে---=> var numbers = [20, 58, 65, 35, 45];
+numbers.pop(45);
+console.log(numbers);
+relsule-- [ 20, 58, 65, 35]
+
+
+২২. কোন একটা Array এর মধ্যে প্রথম উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে।
+=>var numbers = [20, 58, 65, 35, 45];
+numbers.unshift(50);
+console.log(numbers);
+result -- [ 50, 20, 58, 65, 35, 45 ]
+আবার Array থেকে প্রথম উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে--
+=>var numbers = [20, 58, 65, 35, 45];
+numbers.shift(45);
+console.log(numbers);
+result -- [ 58, 65, 35, 45 ]
+
+
+২৩. তুলনা কিভাবে করতে হয়। এইগুলার মানে কি: >, <, ==, !=, <=, >=, ===, !==, &&  -- and, ।। -- or. 
+
+
+২৪. তোমার কাছে: ৮০০০০ টাকার বেশি হলে তুমি mac কিনবে, ৬০ টাকার বেশি হলে gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে lenovo yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে। 
+=>
+var taka = 2000;
+
+if(80000 < taka){
+    console.log('I will buy a MAC');
+}
+else if(60000 < taka){
+    console.log('I will buy a gaming laptop');
+}
+else if(40000 < taka){
+    console.log('I will buy a lenovo yoga computer');
+}
+else if (20000 < taka){
+    console.log('i will buy a secondhend laptop');
+}
+else{
+    console.log('mobile is enoup for me');
+}
+result is like your (taka value);
+now result is --- mobile is enoup for me
+
+
+২৫. Alhadulillah এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও। 
+=>
+for(var i = 0; i < 5; i++){
+    console.log('Alhamdulilah');
+}
+result will be -- show Alhamdulilah 39 times.
+
+
+
+২৬. while লুপ কিভাবে কাজ করে 
+=>while লুপ
+কোন একটি শর্ত বা condition পুরন না হওয়া পর্যন্ত কোন কাজ চালিয়ে যেতে জাভাস্ক্রিপ্ট এর while লুপ ব্যবহার করা হয়। এক্ষেত্রে নির্ধারিত শর্ত বা condition টি মিথ্যা অর্থাৎ false না হওয়া পর্যন্ত while লুপ টি চলতেই থাকবে।
+
+উদাহরণ স্বরূপ বলা যায়, একজন শিক্ষক আপনাকে একটি অংক করতে দিল। আপনি যত বার অংকটি ভুল করছেন, ততবার শিক্ষক আপনাকে অংক টি করতে বলছে, অর্থাৎ কেবল মাত্র অংকটি করতে পারলেই আপনি এই কাজ থেকে মুক্তি পাবেন। জাভাস্ক্রিপ্ট এর while লুপ টি পুরোপুরি এই রকম।
+
+নিচে জাভাস্ক্রিপ্ট এর while লুপ এর সাধারণ সিনট্যাক্স টি দেখুন।
+সিনট্যাক্স
+while (condition)  
+{  
+    code to be executed  
+}  
+সিনট্যাক্স বিশ্লেষণ
+১. while লুপ এর কোড ক্যারে পরিণত হওয়ার জন্য অবশ্যই শর্তমূলক বা conditional স্টেটমেন্ট সত্য বা true হতে হবে,
+২. while লুপ এর তৃতীয় বন্ধনীর মধ্যে থাকা কোড গুলো execute করে যদি, শর্তমূলক বা conditional স্টেটমেন্ট টি সত্য বা true হয়,
+৩. যখন while লুপের কাজ শুরু হয়, তখন জাভাস্ক্রিপ্ট যাচাই করে দেখে যে শর্তমূলক বা conditional স্টেটমেন্ট টি সত্য বা true কি না। যদি সত্য বা true হয়, তবে তৃতীয় বন্ধনীর মধ্যস্থিত কোড গুলো execute করে,
+৪. এরপর প্রোগ্রাম আবার শর্তমূলক বা conditional স্টেটমেন্টে ফিরে গিয়ে শর্ত বা condition যাচাই করে, যদি শর্ত বা condition, সত্যি বা true হয় তবে আবার তৃতীয় বন্ধনীর মধ্যস্থিত কোড গুলো execute করে,
+৫. এভাবে while লুপটি চলতে থাকে যতক্ষন না শর্ত বা condition টি মিথ্যা অর্থাৎ false হয়। শর্ত বা condition টি মিথ্যা অর্থাৎ false হলেই প্রোগ্রাম while লুপ থেকে বের হয়ে আসে।
+
+ব্যাবহারিক উদাহরণ
+নিচে জাভাস্ক্রিপ্ট এর while লুপ ব্যবহার করে, একটি ব্যাবহারিক উদাহরণ দেখুন।
+
+Starting Loop Current Count : 0
+Current Count : 1
+Current Count : 2
+Current Count : 3
+Current Count : 4
+Current Count : 5
+Current Count : 6
+Current Count : 7
+Current Count : 8
+Current Count : 9
+Loop stopped!
+Set the variable to different value and then try...
+
+ওপরের while লুপের ব্যাবহারিক উদাহরণের জন্য নিচের জাভাস্ক্রিপ্ট কোড গুলো দেখুন।
+
+উদাহরণ
+
+<html>
+   <body>
+      
+      <script type = "text/javascript">
+         <!--
+            var count = 0;
+            document.write("Starting Loop ");
+         
+            while (count < 10) {
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+         
+            document.write("Loop stopped!");
+         //-->
+      </script>
+      
+      <p>Set the variable to different value and then try . . . </p>
+   </body>
+</html>
+
+কোড বিশ্লেষণ
+
+১. প্রথমে " count " নামের একটি ভেরিয়েবল তৈরি বা declare করা হয়েছে যার মান 0,
+২. তারপর while লুপের মাঝে প্রথমে শর্ত বা condition যাচাই করা হয়েছে। এক্ষেত্রে প্রথমে " count " এর মান 0 যা, 10 থেকে ছোট। সুতরাং শর্ত বা condition টি সত্য বা true, শর্ত বা condition টি সত্য অর্থাৎ true বলে 5 নং লাইনে এসে তার মান বা value প্রিন্ট হয়েছে,
+৩. ৬ নং লাইনে এসে " count " ভেরিয়েবলের মান 1 বৃদ্ধি পাবে। প্রোগ্রাম আবার ৮ নং লাইনে এসে শর্ত বা condition যাচাই করবে। শর্ত বা condition টি সত্য অর্থাৎ true, তাই আবার 1 প্রিন্ট হবে,
+৪. আবার ৬ নং লাইনে এসে " count " ভেরিয়েবলের মান 1 বৃদ্ধি হয়ে 2 হবে। প্রোগ্রাম আবার ৪ নং লাইনে এসে শর্ত বা condition যাচাই করবে। শর্ত বা condition টি সত্য অর্থাৎ true, তাই আবার 2 প্রিন্ট হবে। এভাবে শর্ত বা condition টি যতক্ষন পর্যন্ত সঠিক হবে ততক্ষণ লুপ চলতে থাকবে। মিথ্যা অর্থাৎ false হলে প্রোগ্রাম লুপ থেকে বের হয়ে আসবে।
+
+
+
+২৭. for লুপ কিভাবে কাজ করে 
+=>
+জাভাস্ক্রিপ্ট for লুপ - JavaScript for Loop
+যদি কোন জাভাস্ক্রিপ্ট প্রোগ্রাম এর কোন অংশ ঠিক কত বার প্রোগ্রামে পুনরাবৃত্তি বা execute করবে তা পূর্বেই জানা থাকে, তবে সেক্ষেত্রে জাভাস্ক্রিপ্ট এর for লুপ খুব সুবিধাজনক ফলাফল প্রদান করে।
+
+জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করে নিচে একটি ব্যাবহারিক উদাহরণ দেখুন।
+for লুপ
+অন্যান্য সকল প্রোগ্রামিং ভাষার মতই জাভাস্ক্রিপ্ট এর for লুপ কাজ করে। কোন প্রোগ্রামে এক বা একাধিক স্টেটমেন্ট একটা নির্দিষ্ট সংখ্যক বার পর্যন্ত কাজ করতে জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করা হয়। অর্থাৎ যে সকল ক্ষেত্রে আমরা পূর্ব বা আগে থেকেই জানি যে জাভাস্ক্রিপ্ট কোড গুলো ঠিক কত বার পুনরাবৃত্তি করবে অর্থাৎ execute বা run করবে, সে সকল ক্ষেত্রে জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করা হয়।
+
+নিচে জাভাস্ক্রিপ্ট এর for লুপ এর সাধারণ সিনট্যাক্সটি দেখুন।
+
+সিনট্যাক্স
+
+for (initialization; test condition; iteration statement){
+    Statements to be executed if test condition is true
+}
+কোড কপি করুন
+ওপরের সিনট্যাক্সটি দেখুন, এখানে for loop টির 3টি অংশ রয়েছে, অর্থাৎ 3টি অংশ নিয়ে একটি for লুপ গঠিত হয়। এই তিনটি অংশ হল যথাক্রমে নিম্নরূপ -
+
+initialization - for loop এর এই অংশে ভেরিয়েবলের মান বা value উল্লেখ করে দিতে হয়, লুপ শুরু হবার আগেই initialization এর স্টেটমেন্ট execute হবে বা run করবে,
+test condition - লুপের এই অংশেই উল্লেখিত শর্ত বা condition টি সত্য বা true নাকি মিথ্যা বা false তা নির্ণয় করা হয়, যদি শর্ত বা condition সত্যি হয় তবে লুপের মাঝের কোড execute হবে, অন্যথায় প্রোগ্রাম লুপ থেকে বের হয়ে আসবে।
+iteration statement - counter অর্থাৎ ভেরিয়েবলের মান কোন শর্ত বা condition অনুযায়ী হ্রাস বা decrease হবে অথবা বৃদ্ধি বা increase হবে, তা জাভাস্ক্রিপ্ট for লুপের এই অংশে নির্ধারণ করা হয়।
+
+ব্যাবহারিক উদাহরণ
+নিচে জাভাস্ক্রিপ্টম এর for লুপ ব্যবহার করে একটি ব্যাবহারিক উদাহরণ দেখুন।
+
+ওপরের for লুপের ব্যাবহারিক উদাহরণের জন্য নিচের জাভাস্ক্রিপ্ট কোড গুলো দেখুন।
+
+নোট - জাভাস্ক্রিপ্ট for লুপের 3টি অংশকেই পরস্পর সেমিকোলন ছিনহ অর্থাৎ " ; " দ্বারা পৃথক করে দিতে হয়।
+
+code--
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+result-- JavaScript For Loop
+BMW
+Volvo
+Saab
+Ford
+Fiat
+Audi
+
+
+২৮. while লুপ এর মধ্যে লুপ ভেরিয়েবল চেইঞ্জ না করলে কি সমস্যা হয়। 
+
+
+
+২৯. একটা কোড লিখে ৫৮ থেকে ৯৮ পর্যন্ত যত সংখ্যা আছে সেগুলাকে দেখাও 
+=>
+for( var i = 58; 98 > i; i++){
+    console.log(i);
+}
+result show 58 to 98  all numbers.
+
+
+৩০.একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও 
+=>
+for( var i = 412; i <= 420; i = i + 2){
+    console.log(i);
+}
+result -- 412
+412
+414
+416
+418
+420
+
+
+৩১. একটা কোড লিখে ৫৮১ থেকে ৬২৩ পর্যন্ত যত বিজোড় সংখ্যা আছে সেগুলাকে দেখাও 
+=>for(var i = 581; i <= 589; i = i +2){
+    console.log(i);
+}
+result--
+581
+583
+585
+587
+589
+
+
+৩২.while আর for loop এর মধ্যে পার্থক্য কি 
+
+
+
+৩৩ তুমি এতদিন যা যা জিনিস শিখছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা for লুপ দিয়ে সেই array এর সব উপাদান কে আউটপুট হিসেবে দেখাও। 
+=>
+var leaning = ['variable', 'math', 'loop', 'while', 'for', 'break'];
+for(var i = 0; i < leaning.length; i++){
+    var option = leaning[i];
+    console.log(i, option);
+}
+result--
+0 variable
+1 math
+2 loop
+3 while
+4 for
+5 break
+
+
+৩৪. তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও
+=>
+var mobile = ['Hisence', 'Samsung', 'MI'];
+var i = 0;
+while(i < mobile.length){
+    var model = mobile[i];
+    i++;
+    console.log(i, model);
+}
+result--
+1 Hisence
+2 Samsung
+3 MI
+
+
+৩৫. একটা ফর লুপ চালাও। ৩০ থেকে ৮৬ পর্যন্ত। আর এই লুপ ৪৪ এ গেলে ব্রেক করবে। সেই জিনিস কোড করে দেখাও
+=>
+for( var i = 30; i < 50; i++){
+    console.log(i);
+    if(35 <= i){
+        break;
+    }
+}
+reuslt--
+30
+31
+32
+33
+34
+35
+
+
+
+৩৬. তোমার যত বই আছে সেগুলার দাম নিয়ে একটা array লিখে ফেলো। যে বই গুলোর দাম ২০০ টাকার উপরে সেগুলাকে স্কিপ করবে। অর্থাৎ সেগুলাকে আউটপুট হিসেবে দেখাবে না। বাকিদের কে আউটপুট হিসেবে দেখাবে। দেখো করতে পারো কিনা। 
+=>
+var bookPrice = [100, 200, 150, 250];
+for(var i = 0; i < bookPrice.length; i++){
+    var price = bookPrice[i];
+    if(200 <= price){
+        continue;
+    }
+    console.log(price);
+}
+result-- 
+100
+150
